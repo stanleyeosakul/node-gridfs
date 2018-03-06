@@ -2,7 +2,7 @@
 This project is the result of my code-along to the Node Upload App: [Uploading Files to MongoDB With GridFS (Node.js App)](https://www.youtube.com/watch?v=3f5Q9wDePzY) by *Brad Traversy*.  The app uses [Multer's GridFS Storage Engine](https://github.com/devconcept/multer-gridfs-storage) to store uploaded files directly to MongoDB and [GridFS Stream](https://canvasjs.com/) for file streams.  The front-end of this app was styled using the [Bulma CSS Framework](https://bulma.io) instead of Bootstrap, which was used in the original video.
 
 <p align="center">
-  <img width="500" height="266" src="./images/homepage.png"><br>
+  <img width="500" height="294" src="./images/homepage.png"><br>
 </p>
 
 ## Versions
