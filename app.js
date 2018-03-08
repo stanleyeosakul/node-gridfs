@@ -11,10 +11,10 @@ const methodOverride = require('method-override');
 // Initialize environment
 const app = express();
 const port = process.env.PORT || 3000;
-const monogoURI = 'mongodb://localhost:27017/multer'
+const mongoURI = 'mongodb://localhost:27017/multer'
 
 // Create Mongo connection
-const conn = mongoose.createConnection(monogoURI);
+const conn = mongoose.createConnection(mongoURI);
 
 // Initialize GridFS
 let gfs;
